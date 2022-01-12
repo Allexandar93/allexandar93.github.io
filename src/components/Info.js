@@ -18,7 +18,7 @@ function Info() {
           I'm beginning my journey as a front-end developer and would like to
           work with you. Front-end development is a newly discovered passion of
           mine, and I work almost daily on expanding knowledge and experience.
-          I'm quietly confident and naturally curious.Here you'll find my
+          I'm quietly confident and naturally curious. npmHere you'll find my
           projects and work that shows you what I can do. 
         </p>
       </div>
