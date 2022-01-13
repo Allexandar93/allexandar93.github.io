@@ -4,6 +4,7 @@
   display: flex;
   background-color: #191a19;
   color: #d8e9a8;
+  overflow-x: hidden;
 
   .contact__left {
     display: flex;
@@ -160,8 +161,11 @@
   .contact {
     flex-direction: column;
     height: 130vh;
+    max-width: 100vw;
+    overflow-y: hidden;
 
     .contact__left {
+      overflow-x: hidden;
       .contact__leftSocials {
         width: 90%;
         min-width: none;
@@ -170,7 +174,7 @@
 
     .contact__right {
       justify-content: center;
-      padding: 0 20px;
+
       p {
         top: 0;
         left: 3%;
@@ -183,7 +187,6 @@
         span {
           margin-left: 0;
           margin-top: 10px;
-          margin-bottom: 10px;
         }
       }
     }
