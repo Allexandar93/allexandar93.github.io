@@ -7,11 +7,6 @@ import {
   faEnvelope,
   faMapMarkerAlt,
 } from "@fortawesome/free-solid-svg-icons";
-import {
-  faFacebookSquare,
-  faInstagram,
-  faGithub,
-} from "@fortawesome/free-brands-svg-icons";
 
 import emailjs from "@emailjs/browser";
 
@@ -45,37 +40,22 @@ function Contact() {
         <h1 className="c">Let's discuss your project</h1>
         <div className="contact__leftInformations">
           <div className="informations">
-            <FontAwesomeIcon className="icon" icon={faMobileAlt} />
+            <FontAwesomeIcon className="icon phone" icon={faMobileAlt} />
             <p>+381 (0)63 8096648</p>
           </div>
 
           <div className="informations">
-            <FontAwesomeIcon className="icon" icon={faEnvelope} />
+            <FontAwesomeIcon className="icon mail" icon={faEnvelope} />
             <p>zivoticaleksandar00@gmail.com</p>
           </div>
 
           <div className="informations">
-            <FontAwesomeIcon className="icon" icon={faMapMarkerAlt} />
+            <FontAwesomeIcon className="icon map" icon={faMapMarkerAlt} />
             <p>Požarevac, Serbia</p>
           </div>
         </div>
 
-        <div className="contact__leftSocials">
-          <a target="_blank" href="https://www.facebook.com/aleksandar.atza/">
-            <FontAwesomeIcon className="social" icon={faFacebookSquare} />
-          </a>
-
-          <a
-            target="_blank"
-            href="https://www.instagram.com/alleksandarzivotic/"
-          >
-            <FontAwesomeIcon className="social" icon={faInstagram} />
-          </a>
-
-          <a target="_blank" href="https://github.com/Allexandar93">
-            <FontAwesomeIcon className="social" icon={faGithub} />
-          </a>
-        </div>
+        <div className="contact__leftSocials"></div>
       </div>
 
       <div className="contact__right">
