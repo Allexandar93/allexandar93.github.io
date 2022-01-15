@@ -10,12 +10,10 @@
     border-radius: 50%;
     font-size: clamp(3em, 2vw, 4em);
     margin: 0 30px;
+    transition: 0.3s;
 
     &:hover {
-      color: #191a19;
-      border-radius: 50%;
-      box-shadow: 0 0 10px #d8e9a8, 0 0 40px #d8e9a8, 0 0 80px #d8e9a8,
-        0 0 10px #d8e9a8, 0 0 40px #d8e9a8, 0 0 80px #d8e9a8 inset;
+      transform: translateY(-10px);
     }
   }
 }
