@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Info from "./Info";
 import "../styles/portfolio.scss";
 import Contact from "./Contact";

@@ -16,6 +16,7 @@
   }
 
   // #3e3f43
+  // #d5d5d5
 
   .browser {
     height: 20px;
@@ -56,9 +57,16 @@
     height: 100%;
     object-fit: cover;
     object-position: center;
-    padding-top: 20px;
+    padding-top: 19px;
 
     top: 20px;
+  }
+
+  p {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
   }
 }
 
@@ -72,6 +80,10 @@
     margin: 20px 10px;
     border-radius: 10px 10px 0 0;
     overflow: hidden;
+
+    &:hover {
+      transform: scale(0);
+    }
     .browser {
       height: 20px;
     }

@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/projectCards.scss";
 
-function ProjectCards({ img, link }) {
+function ProjectCards({ img, link, title }) {
   return (
     <div className="projectCards">
       <div className="browser">
@@ -12,6 +12,7 @@ function ProjectCards({ img, link }) {
       <a className="links" href={link} target="_blank" rel="noreferrer">
         <img src={img} alt="" className="projectImg" />
       </a>
+      <p>{title}</p>
     </div>
   );
 }

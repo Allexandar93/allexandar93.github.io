@@ -11,7 +11,12 @@ function Projects() {
       </div>
       <div className="projects__list">
         {projects.map((item) => (
-          <ProjectCards key={item.id} img={item.img} link={item.link} />
+          <ProjectCards
+            key={item.id}
+            title={item.title}
+            img={item.img}
+            link={item.link}
+          />
         ))}
       </div>
     </div>
