@@ -7,7 +7,7 @@ import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 
 function Info() {
   return (
-    <div className="info">
+    <div id="info" className="info">
       <div className="info__imgContainer">
         <img className="body" src={Body} />
         <img className="head" src={Head} alt="" />

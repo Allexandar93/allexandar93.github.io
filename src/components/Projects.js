@@ -5,7 +5,7 @@ import { projects } from "./data.js";
 
 function Projects() {
   return (
-    <div className="projects">
+    <div id="projects" className="projects">
       <div className="projects__text">
         <h1>Here are some of my projects</h1>
       </div>
