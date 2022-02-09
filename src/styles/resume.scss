@@ -1,0 +1,25 @@
+.resume {
+  background-color: #191a19;
+  color: #d8e9a8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 70px auto;
+
+  .resumeText {
+    margin-bottom: 50px;
+    font-size: clamp(1em, 1vw, 1.3em);
+  }
+  .resumeImg {
+    width: 10vw;
+    min-width: 100px;
+    max-width: 300px;
+    height: auto;
+    transition: 0.3s;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}

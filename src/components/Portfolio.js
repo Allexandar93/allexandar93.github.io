@@ -5,6 +5,7 @@ import Contact from "./Contact";
 import Projects from "./Projects";
 import Socials from "./Socials";
 import Sidebar from "./Sidebar";
+import Resume from "./Resume";
 
 function Portfolio() {
   const [sidebar, setSidebar] = useState(false);
@@ -13,16 +14,12 @@ function Portfolio() {
     setSidebar(!sidebar);
   };
 
-  const close = () => {
-    if (setSidebar(!sidebar)) {
-      setSidebar(false);
-    }
-  };
   return (
-    <div onClick={close} className="portfolio">
+    <div className="portfolio">
       <Sidebar sidebar={sidebar} openMenu={openMenu} />
       <Info />
       <Projects />
+      <Resume />
       <Contact />
       <Socials />
     </div>

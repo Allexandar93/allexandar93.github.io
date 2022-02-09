@@ -27,6 +27,12 @@ function Sidebar({ sidebar, openMenu }) {
           </li>
 
           <li>
+            <HashLink className="link" smooth to="#resume">
+              Resume
+            </HashLink>
+          </li>
+
+          <li>
             <HashLink className="link" smooth to="#contact">
               Contact
             </HashLink>
