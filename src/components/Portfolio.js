@@ -8,15 +8,9 @@ import Sidebar from "./Sidebar";
 import Resume from "./Resume";
 
 function Portfolio() {
-  const [sidebar, setSidebar] = useState(false);
-
-  const openMenu = () => {
-    setSidebar(!sidebar);
-  };
-
   return (
     <div className="portfolio">
-      <Sidebar sidebar={sidebar} openMenu={openMenu} />
+      <Sidebar />
       <Info />
       <Projects />
       <Resume />

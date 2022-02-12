@@ -1,91 +1,111 @@
-.projectCards {
+.mainProjectCards {
+  transition: 0.3s;
+  margin: 20px 15px;
+  margin-bottom: 100px;
   width: 30%;
+  height: 30vh;
+
   min-width: 350px;
   max-width: 400px;
-  height: 30vh;
-  min-height: 200px;
-  margin: 20px 10px;
-  border-radius: 10px 10px 0 0;
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  transition: 0.3s;
-
   &:hover {
     transform: scale(1.05);
   }
-
-  // #3e3f43
-  // #d5d5d5
-
-  .browser {
-    height: 20px;
-    width: 100%;
-    background-color: #d5d5d5;
+  .projectCards {
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    position: relative;
     display: flex;
+    transition: 0.3s;
+
+    // #3e3f43
+    // #d5d5d5
+
+    .browser {
+      height: 20px;
+      width: 100%;
+      background-color: #d5d5d5;
+      display: flex;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      z-index: 2;
+
+      .browserCircle {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        margin: 3px;
+      }
+
+      .redC {
+        background-color: #ff5a5a;
+      }
+      .yellowC {
+        background-color: #febc34;
+      }
+      .greenC {
+        background-color: #1fc933;
+      }
+    }
+
+    .links {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    .projectImg {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      padding-top: 19px;
+    }
+
+    p {
+      width: 100%;
+      position: absolute;
+      bottom: 4px;
+      background: rgba(0, 0, 0, 0.6);
+    }
+  }
+
+  .projectButtons {
+    background-color: #a3a3a3;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    position: absolute;
-    top: 0;
-    z-index: 2;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 5px;
+    margin-top: -3px;
+    .projectButtonsBtn {
+      background-color: #d8e9a8;
+      width: 49.8%;
+      height: 25px;
+      text-decoration: none;
+      font-weight: 500;
+      color: #191a19;
+      transition: 0.3s;
 
-    .browserCircle {
-      width: 6px;
-      height: 6px;
-      border-radius: 50%;
-      margin: 3px;
+      &:hover {
+        background-color: #4e9f3d;
+      }
     }
-
-    .redC {
-      background-color: #ff5a5a;
-    }
-    .yellowC {
-      background-color: #febc34;
-    }
-    .greenC {
-      background-color: #1fc933;
-    }
-  }
-
-  .links {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-  }
-  .projectImg {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    padding-top: 19px;
-
-    top: 20px;
-  }
-
-  p {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.6);
   }
 }
 
 @media screen and (max-width: 450px) {
-  .projectCards {
-    width: 80%;
-    min-width: none;
-    max-width: none;
-    height: auto;
-    min-height: none;
-    margin: 20px 10px;
-    border-radius: 10px 10px 0 0;
-    overflow: hidden;
-
+  .mainProjectCards {
     &:hover {
       transform: scale(1);
     }
-    .browser {
-      height: 20px;
+    .projectCards {
+      width: 100%;
+      min-width: none;
+      max-width: none;
+      height: auto;
+      min-height: none;
     }
   }
 }

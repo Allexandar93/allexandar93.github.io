@@ -1,12 +1,38 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "../styles/sidebar.scss";
 import { HashLink } from "react-router-hash-link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEllipsisV, faTimes } from "@fortawesome/free-solid-svg-icons";
 
-function Sidebar({ sidebar, openMenu }) {
+function Sidebar() {
+  const [sidebar, setSidebar] = useState(false);
+  const ref = useRef();
+
+  useEffect(() => {
+    const onBodyClick = (event) => {
+      if (ref.current && ref.current.contains(event.target)) {
+        return;
+      }
+
+      setSidebar(false);
+    };
+    document.body.addEventListener("click", onBodyClick);
+
+    return () => {
+      document.body.removeEventListener("click", onBodyClick);
+    };
+  }, []);
+
+  const openMenu = () => {
+    setSidebar(!sidebar);
+  };
+
   return (
-    <div onClick={openMenu} className={sidebar ? "sidebar active" : "sidebar"}>
+    <div
+      ref={ref}
+      onClick={openMenu}
+      className={sidebar ? "sidebar active" : "sidebar"}
+    >
       <FontAwesomeIcon
         className="sidebarIcon"
         icon={sidebar ? faTimes : faEllipsisV}
