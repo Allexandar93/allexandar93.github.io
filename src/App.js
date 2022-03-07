@@ -5,7 +5,7 @@ import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
-    <Routes>
+    <Routes basename="/allexandar93.github.io ">
       <Route path="/" element={<Home />} />
       <Route path="/portfolio" element={<Portfolio />} />
     </Routes>
