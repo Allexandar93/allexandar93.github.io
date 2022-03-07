@@ -33,6 +33,7 @@ function Contact() {
           console.log(error.text);
         }
       );
+      
   };
   return (
     <div id="contact" className="contact">
