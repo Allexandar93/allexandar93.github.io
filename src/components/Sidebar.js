@@ -3,7 +3,6 @@ import "../styles/sidebar.scss";
 import { HashLink } from "react-router-hash-link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEllipsisV, faTimes } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
 
 function Sidebar() {
   const [sidebar, setSidebar] = useState(false);

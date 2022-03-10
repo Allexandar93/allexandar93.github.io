@@ -9,7 +9,7 @@ function Info() {
   return (
     <div id="info" className="info">
       <div className="info__imgContainer">
-        <img className="body" src={Body} />
+        <img className="body" src={Body} alt="" />
         <img className="head" src={Head} alt="" />
       </div>
       <div className="info__text">
