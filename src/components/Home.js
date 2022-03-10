@@ -17,8 +17,7 @@ function Home() {
       </div>
       <p>Freelance Front-end developer</p>
       <Link className="home__btn" to={"/portfolio"}>
-        {" "}
-        Let's get started{" "}
+        Let's get started
       </Link>
 
       <div className="home__animation">

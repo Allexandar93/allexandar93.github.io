@@ -1,0 +1,41 @@
+.allProjects {
+  margin: 0;
+  padding: 70px 0;
+  width: 100%;
+  background-color: #191a19;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  .goBack {
+    background-color: #d8e9a8;
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: 0.3s ease;
+
+    &:hover {
+      box-shadow: 0 0 10px #d8e9a8, 0 0 30px #d8e9a8, 0 0 50px #d8e9a8;
+      transform: scale(1.04);
+    }
+  }
+
+  .projects__list {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}

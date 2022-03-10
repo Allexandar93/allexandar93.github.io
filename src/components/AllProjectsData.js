@@ -1,4 +1,4 @@
-export const projects = [
+export const allProjects = [
   {
     id: 1,
     img: "https://i.ibb.co/GFmZsww/website1.png",
@@ -41,5 +41,12 @@ export const projects = [
     link: "https://allexandar93.github.io/trivia-app/",
     title: "To do list",
     codeLink: "https://github.com/Allexandar93/trivia-app",
+  },
+  {
+    id: 7,
+    img: "https://i.ibb.co/zFkCx4C/website3.png",
+    link: "https://allexandar93.github.io/to-do-list/",
+    title: "To do list",
+    codeLink: "https://github.com/Allexandar93/to-do-list",
   },
 ];

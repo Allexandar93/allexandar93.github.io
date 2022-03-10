@@ -67,6 +67,10 @@
       position: absolute;
       bottom: 4px;
       background: rgba(0, 0, 0, 0.6);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #d8e9a8;
     }
   }
 
@@ -87,6 +91,9 @@
       font-weight: 500;
       color: #191a19;
       transition: 0.3s;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
       &:hover {
         background-color: #4e9f3d;

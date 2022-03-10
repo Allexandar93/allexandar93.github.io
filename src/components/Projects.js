@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/projects.scss";
 import ProjectCards from "./ProjectCards";
 import { projects } from "./data.js";
+import { Link } from "react-router-dom";
 
 function Projects() {
   return (
@@ -20,6 +21,10 @@ function Projects() {
           />
         ))}
       </div>
+
+      <Link className="projectsBtn" to={"/projects"}>
+        See all of my projects
+      </Link>
     </div>
   );
 }
