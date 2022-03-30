@@ -30,10 +30,10 @@ export const allProjects = [
   },
   {
     id: 5,
-    img: "https://i.ibb.co/g6hyqyB/website2.png",
-    link: "https://allexandar93.github.io/form-validation/",
-    title: "Form validator",
-    codeLink: "https://github.com/Allexandar93/form-validation",
+    img: "https://i.ibb.co/CzhjjvF/website8.png",
+    link: "https://allexandar93.github.io/html-email-template/",
+    title: "HTML email template",
+    codeLink: "https://github.com/Allexandar93/html-email-template",
   },
   {
     id: 6,
@@ -48,5 +48,12 @@ export const allProjects = [
     link: "https://allexandar93.github.io/to-do-list/",
     title: "To do list",
     codeLink: "https://github.com/Allexandar93/to-do-list",
+  },
+  {
+    id: 8,
+    img: "https://i.ibb.co/g6hyqyB/website2.png",
+    link: "https://allexandar93.github.io/form-validation/",
+    title: "Form validator",
+    codeLink: "https://github.com/Allexandar93/form-validation",
   },
 ];
