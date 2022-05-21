@@ -15,11 +15,12 @@ function Info() {
       <div className="info__text">
         <h2>Hi, I'm Aleksandar. Nice to meet you.</h2>
         <p>
-          I'm beginning my journey as a front-end developer and would like to
-          work with you. Front-end development is a newly discovered passion of
-          mine, and I work almost daily on expanding knowledge and experience.
-          I'm quietly confident and naturally curious. Here you'll find my
-          projects and work that shows you what I can do. 
+          Self-driven Front End Developer with a passion for both personal
+          growth and web development. Mostly focused on ReactJS, I attended
+          1000+ hours of coding bootcamps to learn new languages while
+          sharpening existing skills. Ready to apply my passion for coding to a
+          talented engineering team to develop quality solutions. Feel free to
+          contact me through the contact form at the end of the page.
         </p>
       </div>
       <FontAwesomeIcon className="arrow" icon={faArrowDown} />

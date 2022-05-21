@@ -5,6 +5,7 @@ import {
   faFacebookSquare,
   faInstagram,
   faGithub,
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
 function Socials() {
@@ -20,6 +21,10 @@ function Socials() {
 
       <a target="_blank" href="https://github.com/Allexandar93">
         <FontAwesomeIcon className="social" icon={faGithub} />
+      </a>
+
+      <a target="_blank" href="https://www.linkedin.com/in/allexandar93">
+        <FontAwesomeIcon className="social" icon={faLinkedin} />
       </a>
     </div>
   );
