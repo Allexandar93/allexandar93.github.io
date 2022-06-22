@@ -1,9 +1,8 @@
 import React from "react";
-import { allProjects } from "./AllProjectsData";
 import ProjectCards from "./ProjectCards";
 import { Link } from "react-router-dom";
+import { projects } from "./data";
 import ScrollToTop from "./ScrollToTop";
-
 import "../styles/allProjects.scss";
 
 const AllProjects = () => {
@@ -14,7 +13,7 @@ const AllProjects = () => {
           {"<"} Go Back
         </Link>
         <div className="projects__list">
-          {allProjects.map((item) => (
+          {projects.map((item) => (
             <ProjectCards
               key={item.id}
               title={item.title}

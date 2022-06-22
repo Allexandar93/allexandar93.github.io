@@ -1,10 +1,10 @@
 export const projects = [
   {
     id: 1,
-    img: "https://i.ibb.co/GFmZsww/website1.png",
-    link: "https://allexandar93.github.io/instagram-clone/",
-    title: "Instagram clone",
-    codeLink: "https://github.com/Allexandar93/instagram-clone",
+    img: "https://i.ibb.co/pWPLJR6/website9.png",
+    link: "https://allexandar93.github.io/learning-platform/",
+    title: "Learning platform",
+    codeLink: "https://github.com/Allexandar93/learning-platform",
   },
 
   {
@@ -41,5 +41,26 @@ export const projects = [
     link: "https://allexandar93.github.io/trivia-app/",
     title: "To do list",
     codeLink: "https://github.com/Allexandar93/trivia-app",
+  },
+  {
+    id: 7,
+    img: "https://i.ibb.co/zFkCx4C/website3.png",
+    link: "https://allexandar93.github.io/to-do-list/",
+    title: "To do list",
+    codeLink: "https://github.com/Allexandar93/to-do-list",
+  },
+  {
+    id: 8,
+    img: "https://i.ibb.co/g6hyqyB/website2.png",
+    link: "https://allexandar93.github.io/form-validation/",
+    title: "Form validator",
+    codeLink: "https://github.com/Allexandar93/form-validation",
+  },
+  {
+    id: 9,
+    img: "https://i.ibb.co/GFmZsww/website1.png",
+    link: "https://allexandar93.github.io/instagram-clone/",
+    title: "Instagram clone",
+    codeLink: "https://github.com/Allexandar93/instagram-clone",
   },
 ];

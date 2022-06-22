@@ -11,7 +11,7 @@ function Projects() {
         <h1>Here are some of my projects</h1>
       </div>
       <div className="projects__list">
-        {projects.map((item) => (
+        {projects.slice(0, 6).map((item) => (
           <ProjectCards
             key={item.id}
             title={item.title}
