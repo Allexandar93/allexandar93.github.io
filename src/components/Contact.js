@@ -33,7 +33,6 @@ function Contact() {
           console.log(error.text);
         }
       );
-      
   };
   return (
     <div id="contact" className="contact">
@@ -41,12 +40,7 @@ function Contact() {
         <h1 className="c">Let's discuss your project</h1>
         <div className="contact__leftInformations">
           <div className="informations">
-            <FontAwesomeIcon className="icon phone" icon={faMobileAlt} />
-            <p>+381 (0)63 8096648</p>
-          </div>
-
-          <div className="informations">
-            <FontAwesomeIcon className="icon mail" icon={faEnvelope} />
+            <FontAwesomeIcon className="icon mail phone" icon={faEnvelope} />
             <p>zivoticaleksandar00@gmail.com</p>
           </div>
 
